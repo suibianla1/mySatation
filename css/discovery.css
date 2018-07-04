@@ -1,0 +1,35 @@
+.body .mui-card .content {
+  height: 250px;
+  border-radius: 50%;
+  margin: 10px auto;
+  display: block;
+  position: relative;
+}
+.mui-card .mui-card-content{
+  height: 212px;
+}
+.mui-card .mui-card-content img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* .mui-card .mui-card-content .blankBtn {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.main .mui-card .title-content {
+  margin: 15px;
+  font-size: 24px;
+  color: #000;
+  line-height: 32px;
+  /*background: green;*/
+}
+
+.main .mui-card .author {
+  margin-left: 15px;
+}

@@ -1,0 +1,63 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-22 15:42:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-22 16:42:08
+*/
+.body .main{
+	position: static;
+	padding-top: 41px;
+	margin-bottom: 40px;
+}
+.main .item img{
+	display: block;
+	width: 100%;
+}
+.main .item .author{
+	margin: 20px 0;
+  padding: 0 20px;
+  text-align: right;
+}
+.main .item .date{
+	margin-top: 20px;
+	font-size: 48px;
+	color: #000;
+	font-family: Serif;
+	line-height: 48px;
+	text-align: center;
+}
+.main .item .month{
+	text-align: center;
+	color: #000;
+}
+.main .item .line{
+	width: 124px;
+	margin: 20px auto;
+	height: 1px;
+	background-color: #ccc;
+}
+.main .item .contnet{
+	font-size: 16px;
+	color: #000;
+	line-height: 25px;
+	padding: 0 20px;
+}
+.bottom{
+	height: 185px;
+	padding-top: 20px;
+}
+.bottom a{
+	display: block;
+	margin: 0 auto;
+	width: 60px;
+}
+.bottom img{
+	display: block;
+	width: 60px;
+	height: 60px;
+}
+.bottom p{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 20px;
+}

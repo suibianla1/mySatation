@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+}
+
+.body {
+  height: 100%;
+}
+
+.body .top span {
+  left: 10px;
+}
+
+.body .top .mui-icon-more {
+  width: 24px;
+  transform: rotate(90deg);
+  left: 92%;
+  /* right: 10px !important; */
+}
+
+.body .main {
+  padding-top: 0;
+  height: 80%;
+}
+
+.main .head {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.head .plane {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.head .pic {
+  background: url('../assets/img/you.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.head .name {
+  margin-top: 10px;
+  height: 19px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+.main .content {
+  padding: 0 10px;
+}
+
+.main .content div {
+  /* height: 30px; */
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 30px;
+  text-align: center;
+}
+
+.main .content .qianming {
+  padding: 0 50px;
+}
+
+.pic {
+  position: relative;
+}
+
+.pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.pic input {
+  position: absolute;
+  left: 0;
+  top: 28px;
+  width: 80px;
+  opacity: 0;
+}
+
+.pic p{
+  text-align: center;
+}
+
+.singout {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.singout button {
+  width: 100px;
+}
+
+.xiugai {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.xiugai form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xiugai .info {
+  width: 80%;
+  height: 420px;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 5px;
+}
+
+.xiugai .info .title p {
+  font-size: 16px;
+}
+
+.xiugai .info input {
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  padding-top: 8px;
+}

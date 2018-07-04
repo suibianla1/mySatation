@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <title>我的</title>
+  <link rel="stylesheet" href="../assets/mui/css/mui.min.css">
+  <link rel="stylesheet" href="../css/me.css">
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+
+<body> 
+  <div class="body">
+    <div class="top">
+      <span class="mui-icon mui-icon-bars"></span>
+      <span class="mui-icon mui-icon-more"></span>
+    </div>
+    <div class="main">
+      <div class="head">
+        <div class="plane">
+          <div class="pic">
+            <img src="../assets/img/user.jpg" alt="">
+            <p>点击头像上传</p>
+            <input type="file" id="upload">
+          </div>
+        </div> 
+      </div>
+      <div class="content">
+        <div class="username">昵称：未登录</div>
+        <div class="gender">性别：未知</div>
+        <div class="age">年龄：未知</div>
+        <div class="qianming">自我介绍：暂时没有哦</div>
+      </div>
+      <div class="singout">
+        <button>退出</button>
+      </div>
+    </div>
+    <div class="mask"></div>
+    <div class="side">
+      <ul>
+        <li>
+          <a href="../../index.html">首页</a>
+        </li>
+        <li>
+          <a href="../pages/discovery.html">探索</a>
+        </li>
+        <li>
+          <a class="active" href="javascript:;">我的</a>
+        </li>
+        <li>
+          <a href="../pages/aboutUs.html">关于</a>
+        </li>
+      </ul>
+    </div>
+    <div class="xiugai">
+      <form class="form" action="">
+        <div class="info">
+          <div class="title">
+            <p>修改信息</p>
+          </div>
+          <p>
+            昵称：<input type="text" name="username">
+            <span style="color:red">*</span>
+          </p>
+          <p>
+            密码：<input type="password" name="pwd">
+            <span>&nbsp;</span>
+          </p>
+          <p>
+            性别：<input type="text" name="gender">
+            <span>&nbsp;</span>
+          </p>
+          <p>
+            年龄：<input type="text" name="age">
+            <span>&nbsp;</span>
+          </p>
+          <p>
+            签名：<input type="text" name="signature">
+            <span>&nbsp;</span>
+          </p>
+          <div class="btn">
+            <button class="no">取消</button>
+            <button class="yes">确认</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+<script src="../assets/zepto/zepto.min.js"></script>
+<script src="../assets/zepto/touch.js"></script>
+<script src="../assets/zepto/zepto.fx.js"></script>
+<script src="../js/comom.js"></script>
+<script src="../js/me.js"></script>
+</html>

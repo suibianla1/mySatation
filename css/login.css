@@ -1,0 +1,54 @@
+.body {
+  /* position: relative; */
+}
+
+.body .main {
+  width: 80%;
+  max-width: 600px;
+  height: 280px;
+  /* border: 1px solid #ccc; */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(192, 192, 192, 1);
+  padding-top: 40px;
+  /* display: none; */
+  opacity: 0;
+  overflow: hidden;
+}
+
+.main p {
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+
+.main p input {
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 25px;
+  /* vertical-align: center; */
+  width: 60%;
+  text-indent: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.main .title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main .btn button {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  border-radius: 5px;
+  outline: none;
+  width: 90px;
+}
+

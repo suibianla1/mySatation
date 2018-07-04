@@ -1,0 +1,76 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-21 16:40:40
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-21 17:43:27
+*/
+.main{
+	padding: 40px 20px 0;
+}
+.main .title{
+	font-size: 28px;
+	font-weight: 800;
+	color: #000;
+	line-height: 1.3;
+}
+.main .sort-separate-line{
+	border: 2px solid #000;
+  margin: 15px 0 7px;
+  width: 70px;
+}
+.main .author{
+	color: #000;
+	font-size: 13px;
+  margin-top: 14px;
+  line-height: 32px;
+}
+.main #content p{
+	margin-bottom: 20px;
+	text-align: justify;
+	font-weight: 300;
+	font-size: 16px;
+	color: #000;
+	line-height: 26px;
+}
+
+.text-editor{
+    color: #808080;
+    font-style: oblique;
+    margin: 20px 0px;
+    font-size: 12px
+}
+.page-sparate-title{
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+table{
+    width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 0;
+}
+
+.page-table tr td {
+    vertical-align: top;
+    border: 0 !important;
+}
+.page-table tr td:first-child{
+    width: 50px;
+}
+.page-table img {
+    text-align: center;
+    max-width: 100%;
+        border-radius: 50%;
+    overflow: hidden;
+        width: 45px;
+    height: 45px;
+}
+.page-title {
+    font-size: 14px;
+    vertical-align: top;
+}
+.page-summary {
+    color: #808080;
+    line-height: 20px;
+    font-size: 12px;
+}
